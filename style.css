@@ -1,0 +1,82 @@
+body {
+    /* 폰트적용 어떻게 하는지 */
+    font-family: sans-serif;
+
+}
+
+
+/* nav  설정 */
+
+.container{
+    color:gray;
+    font-size:10;
+}
+
+.navbar-brand{
+    color:purple;
+}
+
+.nav-link{
+    color:purple;
+}
+
+.navbar-custom{
+    color:purple;
+}
+
+.nav-item{
+    color:purple;
+
+}
+/* 부트스트랩 색 변경방법 물어보기 */
+.navbar-light .navbar-nav .nav-link{
+    color:purple;
+}
+
+.btn-outline-success{
+    color:purple;
+    border:1px solid  purple;
+}
+
+.btn-outline-success:hover{
+    color:white;
+    background-color: purple;
+    border:1px solid  purple;
+}
+
+/* first section */
+
+
+.section2{
+    background-image: url(Untitled-3.jpg);
+    height: 0;
+    padding-bottom: 105%;
+    background-size:cover;
+
+}
+
+/* footer */
+.page-footer{
+    justify-content: center;
+    display: flex;
+}
+
+
+.footer-main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-icons {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-icons:hover{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
