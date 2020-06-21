@@ -12,47 +12,76 @@ body {
     font-size:10;
 }
 
-.navbar-brand{
-    color:purple;
+
+.navbar-brand {
+    color:purple !important;
+}
+.nav-link {
+    color:purple !important;
 }
 
-.nav-link{
-    color:purple;
-}
 
-.navbar-custom{
-    color:purple;
-}
 
-.nav-item{
-    color:purple;
-
-}
-/* 부트스트랩 색 변경방법 물어보기 */
-.navbar-light .navbar-nav .nav-link{
-    color:purple;
-}
 
 .btn-outline-success{
     color:purple;
     border:1px solid  purple;
 }
 
-.btn-outline-success:hover{
+.btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success:focus {
+    color: #ffffff !important;
+    background-color: rgb(150, 16, 150) !important;
+    border-color: #9f18a3 !important;
+  }
+
+/* .btn-outline-success:hover{
     color:white;
     background-color: purple;
     border:1px solid  purple;
 }
 
+.btn-outline-success:focus{
+    color:white;
+    background-color: purple;
+    border:1px solid  purple;
+}
+.btn-outline-success:onclick{
+    color:white;
+    background-color: purple;
+    border:1px solid  purple;
+} */
 /* first section */
 
 
 .section2{
     background-image: url(Untitled-3.jpg);
-    height: 0;
-    padding-bottom: 105%;
+    min-height: 1000px;
+    /* padding-bottom: 55%; */
     background-size:cover;
+    
+}
 
+.section3{
+    background-image: url(Untitled-4.jpg);
+    height: 0;
+    padding-bottom: 55%;
+    background-size:cover;
+}
+@media (min-width: 576px) { 
+    .section2{
+        height:220px;
+    }
+}
+
+/* .button-area1{
+    display: flex;
+    justify-content: center;
+    height:100%;
+} */
+
+.button-area2{
+    display: flex;
+    justify-content: center;
 }
 
 /* footer */
@@ -71,7 +100,7 @@ body {
     font-size: 30px;
     display: flex;
     justify-content: center;
-
+    color:purple;    
 }
 
 .footer-icons:hover{
@@ -79,4 +108,11 @@ body {
     display: flex;
     justify-content: center;
     color: purple;
+}
+.footer-color{
+    color:purple
+}
+
+.list-unstyled{
+    color:purple;
 }
